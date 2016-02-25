@@ -1,3 +1,11 @@
+header nav .navbar-header { position: relative; }
+header nav .navbar-header .navbar-brand { position: absolute; top: 0; padding: 0; width: 280px; height: 70px; }
+header nav .navbar-header .navbar-brand .baie-dragon { font-size: 50px; position: relative; top: 8px; left: 10px; }
+header nav .navbar-header .navbar-brand .baie-text { font-size: 28px; color: #e74c3c; }
 
+#about-section .content-tab .tab-cont[data-tab="1"], #about-section .content-tab .tab-cont[data-tab="3"] { /*background: #393939;*/ background: url("../images/baie-3.jpg") no-repeat; background-size: cover; }
+#about-section .content-tab .tab-cont[data-tab="2"], #about-section .content-tab .tab-cont[data-tab="4"] { background: #e74c3c; }
+#about-section .content-tab .tab-cont[data-tab="2"] h2, #about-section .content-tab .tab-cont[data-tab="4"] h2 { color: #fff; }
+#about-section .content-tab .tab-cont[data-tab="2"] li, #about-section .content-tab .tab-cont[data-tab="2"] p, #about-section .content-tab .tab-cont[data-tab="4"] li, #about-section .content-tab .tab-cont[data-tab="4"] p { color: #393939; }
 
 /*# sourceMappingURL=custom.css.map */

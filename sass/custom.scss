@@ -1,0 +1,53 @@
+$black: #393939;
+@import "variables";
+header{
+
+  nav{
+
+    .navbar-header{
+      position: relative;
+
+      .navbar-brand{
+        position: absolute;
+        top:0;
+        padding: 0;
+
+        width: 280px;
+        height: 70px;
+
+        .baie-dragon{
+          font-size: 50px;
+          position: relative;
+          top: 8px;
+          left: 10px;
+        }
+        .baie-text{
+          font-size: 28px;
+          color: $red;
+        }
+      }
+    }
+  }
+}
+#about-section{
+  .content-tab{
+    .tab-cont[data-tab="1"],
+    .tab-cont[data-tab="3"]{
+      /*background: #393939;*/
+      background: url("../images/baie-3.jpg") no-repeat;
+      background-size: cover;
+    }
+    .tab-cont[data-tab="2"],
+    .tab-cont[data-tab="4"]{
+      background: $red;
+      h2{
+        color: #fff;
+      }
+
+      li,
+      p{
+        color: $black;
+      }
+    }
+  }
+}
