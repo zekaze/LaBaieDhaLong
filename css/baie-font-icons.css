@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Baie-dHa-long';
+    src:    url('fonts/Baie-dHa-long.eot?1488yi');
+    src:    url('fonts/Baie-dHa-long.eot?1488yi#iefix') format('embedded-opentype'),
+        url('fonts/Baie-dHa-long.ttf?1488yi') format('truetype'),
+        url('fonts/Baie-dHa-long.woff?1488yi') format('woff'),
+        url('fonts/Baie-dHa-long.svg?1488yi#Baie-dHa-long') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.baie-ico {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Baie-dHa-long' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.baie-dragon:before {
+    content: "\61";
+}
+.baie-logo:before {
+    content: "\62";
+}
+.baie-text:before {
+    content: "\63";
+}
+
